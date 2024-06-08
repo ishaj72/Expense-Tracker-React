@@ -57,7 +57,6 @@ const TrackerForm = () => {
                 <input onChange={handleAmount} value={amnt} type="text" placeholder="Enter the amount" />
                 <br />
                 <button type="submit" name="addTransaction">Credit Amount</button>
-                <br />
                 <button type="submit" name="debitTransaction">Debit Amount</button>
             </form>
             <TransactionList transactions={transactions} initialBalance={parseFloat(blnce)} />

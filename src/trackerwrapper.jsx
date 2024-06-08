@@ -2,9 +2,9 @@ import Trackerform from "./trackerform";
 
 const TrackerWrapper = () => {
     return (
-        <div>
+        <div >
             <div>
-                <h2>Your Transaction List</h2>
+                <h2 >Your Transaction List</h2>
             </div>
             <Trackerform />
         </div>
