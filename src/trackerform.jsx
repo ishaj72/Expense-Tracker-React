@@ -18,12 +18,14 @@ const TrackerForm = () => {
 
     const handleBalance = (e) => {
         setBlnce(e.target.value);
+        setTransactions([]);
     };
 
     const handleSubmit = (e) => {
         e.preventDefault();
         if (e.nativeEvent.submitter.name === 'addBalance') {
             setInitialBalanceMessage(`You have added an initial balance of ${blnce} Rs.`);
+
         } else if (e.nativeEvent.submitter.name === 'addTransaction') {
             const newTransaction = {
                 type: 'credit',

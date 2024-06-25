@@ -3,9 +3,9 @@ import TrackerWrapper from './trackerwrapper'
 
 function App() {
   return (
-    <>
+    <div>
     <TrackerWrapper/>
-    </>
+    </div>
   )
 }
 

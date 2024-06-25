@@ -1,8 +1,19 @@
-# React + Vite
+# Expense Tracker
+A basic web application for tracking your daily expensis.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Installation
 
-Currently, two official plugins are available:
+### Steps
+<ul>
+<li>Clone the github repository : git clone https://github.com/ishaj72/Expense-Tracker-React</li>
+<li>Navigate to the project : cd Expense-Tracker-React</li>
+<li>Install frontend dependencies <br/> -npm install  <br/> -npm react-router-dom </li>
+<li>Start your project : npm run dev</li>
+</ul>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Prerequisites
+- Node.js
+- npm (install using npm install npm@latest -g)
+
+## Image
+<img src="src\assets\expenseTracker.png" alt="addtrains" width="200" height="150">
